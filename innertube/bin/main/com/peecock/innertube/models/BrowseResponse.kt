@@ -1,3 +1,4 @@
+@file:OptIn(kotlinx.serialization.ExperimentalSerializationApi::class)
 package com.peecock.innertube.models
 
 import kotlinx.serialization.ExperimentalSerializationApi
