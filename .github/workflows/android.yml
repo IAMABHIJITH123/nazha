@@ -22,7 +22,9 @@ jobs:
           build-tools: 35.0.0
           target: android-35
       - name: Build debug APK
-        run: ./gradlew assembleDebug --stacktrace
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleDebug --stacktrace
       - name: Upload debug APK artifact
         uses: actions/upload-artifact@v4
         with:
