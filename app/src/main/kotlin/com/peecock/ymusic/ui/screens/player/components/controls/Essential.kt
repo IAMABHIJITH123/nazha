@@ -430,7 +430,7 @@ fun ControlsEssential(
             .background(
                 when (colorPaletteName) {
                     ColorPaletteName.Dynamic, ColorPaletteName.Default,
-                    ColorPaletteName.MaterialYou, ColorPaletteName.Customized -> {
+                    ColorPaletteName.MaterialYou, ColorPaletteName.Customized, ColorPaletteName.NazhaNeon -> {
                         when (playerPlayButtonType) {
                             PlayerPlayButtonType.CircularRibbed, PlayerPlayButtonType.Disabled -> Color.Transparent
                             else -> {
@@ -440,7 +440,7 @@ fun ControlsEssential(
                         }
                     }
 
-                    ColorPaletteName.PureBlack, ColorPaletteName.ModernBlack ->
+                    ColorPaletteName.PureBlack, ColorPaletteName.ModernBlack, ColorPaletteName.NazhaMidnight ->
                         if (playerPlayButtonType == PlayerPlayButtonType.CircularRibbed)
                             colorPalette.background1 else
                             if (playerPlayButtonType != PlayerPlayButtonType.Disabled)

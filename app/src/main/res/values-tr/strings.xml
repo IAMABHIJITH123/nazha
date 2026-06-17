@@ -499,7 +499,7 @@
     <string name="info_reorder_is_possible_only_in_ascending_sort">Yeniden sıralama yalnızca artan doğrultuda mümkündür</string>
     <string name="information">Bilgi</string>
     <string name="info_lyrics_found_on_s">Sözler şurada bulundu: %s</string>
-    <string name="info_lyrics_not_found_on_s_try_on_s">Sözler %s üzerine bulunamadı, %s ile deneniyor</string>
+    <string name="info_lyrics_not_found_on_s_try_on_s" formatted="false">Sözler %s üzerine bulunamadı, %s ile deneniyor</string>
     <string name="info_lyrics_not_found_on_s">Sözler %s üzerinde bulunamadı</string>
     <string name="info_lyrics_tracks_found_on_s">Sözler %s üzerinde bulundu</string>
     <string name="info_lyrics_tracks_not_found_on_s">Sözler %s üzerinde bulunamadı</string>

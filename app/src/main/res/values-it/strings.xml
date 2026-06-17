@@ -499,7 +499,7 @@
     <string name="info_reorder_is_possible_only_in_ascending_sort">Il riordinamento è possibile solo in ordine crescente</string>
     <string name="information">Informazioni</string>
     <string name="info_lyrics_found_on_s">Testo trovato su %s</string>
-    <string name="info_lyrics_not_found_on_s_try_on_s">Testo non trovato su %s, prova su %s</string>
+    <string name="info_lyrics_not_found_on_s_try_on_s" formatted="false">Testo non trovato su %s, prova su %s</string>
     <string name="info_lyrics_not_found_on_s">Testo non trovato su %s</string>
     <string name="info_lyrics_tracks_found_on_s">Testo trovato su %s</string>
     <string name="info_lyrics_tracks_not_found_on_s">Testo non trovato su %s</string>
